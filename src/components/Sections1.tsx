@@ -1,12 +1,11 @@
 import React from 'react';
 import { Coffee, ArrowRight, Zap, Users, Wifi, CircleParking } from 'lucide-react';
-import heroImg from '../assets/hero.jpeg';
 
 export function Hero() {
   return (
     <section className="relative w-full min-h-[85svh] flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <img alt="YPF Soldano Station Night" className="w-full h-full object-cover object-[center_45%]" src={heroImg}/>
+        <img alt="YPF Soldano Station Night" className="w-full h-full object-cover object-[center_45%]" src="/hero.jpeg"/>
         <div className="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/40 to-transparent"></div>
       </div>
       <div className="relative z-10 w-full max-w-container-max mx-auto px-gutter py-20 flex flex-col items-start justify-end min-h-[85svh]">
